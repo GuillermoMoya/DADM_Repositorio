@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Tic-Tac-Toe</string>
+
+    <string name="game_title">Tic-Tac-Toe</string>
+    <string name="your_turn">Tu turno</string>
+    <string name="you_win">¡Ganaste!</string>
+    <string name="computer_win">Ganó el computador</string>
+    <string name="tie_game">¡Empate!</string>
+    <string name="new_game">Nueva partida</string>
+
+</resources>
