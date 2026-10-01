@@ -1,0 +1,571 @@
+{
+  "pbtResults": {
+    "9.2 Write property test for MediaPlayer lifecycle (`onResume`/`onPause`)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790740889448
+    },
+    "9.1 Write property test for exactly-one computer move (`onMoveSelected` via fakes)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790741567350
+    }
+  },
+  "executionHistory": {
+    "1.1 Create `BoardGeometry` pure helper class": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737453674
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737474853
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737971783
+      }
+    ],
+    "1.2 Create `MoveGate` pure helper class": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737455661
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737478606
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737972650
+      }
+    ],
+    "2.1 Add jqwik as a test dependency": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737457855
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737480917
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737973991
+      }
+    ],
+    "2.2 Write property test for touch mapping (`BoardGeometry.mapTouch`)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737458332
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737981746
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739467838
+      }
+    ],
+    "2.3 Write property test for the draw decision (`BoardGeometry.markFor`)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737458821
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737983898
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739465193
+      }
+    ],
+    "2.4 Write property test for cell-dimension tiling": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737459156
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737984680
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739462977
+      }
+    ],
+    "2.5 Write property test for mark scaling (`BoardGeometry.scaledSize`)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737459389
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737986048
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739463548
+      }
+    ],
+    "2.6 Write property test for move gating (`MoveGate.shouldApply`)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737459648
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737987464
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739467177
+      }
+    ],
+    "3. Checkpoint - Ensure pure-helper tests pass": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737459977
+      }
+    ],
+    "4.1 Create `BoardView` class with fields, constructors, and public API": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737460276
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739576039
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739650070
+      }
+    ],
+    "4.2 Implement `onSizeChanged` using `BoardGeometry`": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737460458
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739656541
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739731420
+      }
+    ],
+    "4.3 Implement `onDraw` to render grid and marks from game state": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737460879
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739735159
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739816324
+      }
+    ],
+    "4.4 Implement `onTouchEvent` delegating to `BoardGeometry.mapTouch`": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737461343
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739820430
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739875329
+      }
+    ],
+    "5.1 Add human and computer mark drawables": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737461771
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737481225
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737975541
+      }
+    ],
+    "5.2 Add human and computer move sound resources": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737462064
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737482298
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737976440
+      }
+    ],
+    "6.1 Update `activity_main.xml`": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737462240
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739880769
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739964401
+      }
+    ],
+    "7.1 Remove button-based board code and add new fields": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737462437
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739969226
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740042089
+      }
+    ],
+    "7.2 Wire BoardView in `onCreate`": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737463266
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740048080
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740101125
+      }
+    ],
+    "7.3 Implement `onMoveSelected(int position)` turn logic with gating and sound": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737463667
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740105059
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740167892
+      }
+    ],
+    "7.4 Update `startNewGame` and preserve menu/dialogs": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737464066
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740172141
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740220658
+      }
+    ],
+    "7.5 Implement MediaPlayer lifecycle and playback helper": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737464307
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740224176
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740283750
+      }
+    ],
+    "8. Checkpoint - Ensure app compiles and unit tests pass": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737464526
+      }
+    ],
+    "9.1 Write property test for exactly-one computer move (`onMoveSelected` via fakes)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737464719
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740632395
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741645589
+      }
+    ],
+    "9.2 Write property test for MediaPlayer lifecycle (`onResume`/`onPause`)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737464906
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740632656
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741645948
+      }
+    ],
+    "9.3 Write JVM unit/example tests for status mapping, new game, difficulty, and sound": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737465066
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740634130
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741646265
+      }
+    ],
+    "10.1 Write layout inflation and structure instrumentation test": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737465277
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740635545
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741647732
+      }
+    ],
+    "10.2 Write wiring, redraw, and grid-drawing instrumentation test": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737465483
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740637531
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741649035
+      }
+    ],
+    "10.3 Write menu/dialog regression instrumentation test": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737465681
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741654465
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741798782
+      }
+    ],
+    "11.1 Compile the project and run JVM unit/property tests": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737465874
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741655904
+      },
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741799865
+      }
+    ],
+    "12. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737466038
+      }
+    ],
+    "13.1 (OPTIONAL) Add delayed computer move via `Handler.postDelayed`": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737466189
+      }
+    ],
+    "13.2 (OPTIONAL) Add instrumentation test for the delayed move": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737466353
+      }
+    ],
+    "1. Extract pure, Android-free helper classes for testability": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737972848
+      }
+    ],
+    "5. Add graphics and audio resources": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790737976601
+      }
+    ],
+    "2. Add the property-testing dependency and cover pure helpers with tests": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739468179
+      }
+    ],
+    "4. Implement the custom BoardView": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739875687
+      }
+    ],
+    "6. Replace the button grid with BoardView in the layout": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790739964577
+      }
+    ],
+    "7. Rewire MainActivity to the drawn board and sound": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790740284118
+      }
+    ],
+    "9. Add property and example tests for orchestration and mapping": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741646446
+      }
+    ],
+    "10. Add instrumentation tests (device/emulator)": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741799074
+      }
+    ],
+    "11. Build and verification": [
+      {
+        "executionId": "f01e6702-4437-4a94-bb9d-d92e627b743b",
+        "chatSessionId": "sess_07e74ee9-0a63-4c25-9dd8-4dd4ec98cd01",
+        "timestamp": 1790741800066
+      }
+    ]
+  }
+}

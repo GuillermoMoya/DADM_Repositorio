@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Reto4_TicTacToe</string>
+
+    <!-- Options Menu Strings -->
+    <string name="new_game">New Game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="quit">Quit</string>
+
+    <!-- Game Status Messages -->
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">It\'s your turn.</string>
+    <string name="turn_computer">Android\'s turn.</string>
+    <string name="result_tie">It\'s a tie!</string>
+    <string name="result_human_wins">You won!</string>
+    <string name="result_computer_wins">Android won!</string>
+
+    <!-- Difficulty Dialog Strings -->
+    <string name="difficulty_choose">Choose a difficulty level:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Harder</string>
+    <string name="difficulty_expert">Expert</string>
+
+    <!-- Quit Dialog Strings -->
+    <string name="quit_confirm_message">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+</resources>
