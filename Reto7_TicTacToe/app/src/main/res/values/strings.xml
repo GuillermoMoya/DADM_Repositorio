@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Reto4_TicTacToe</string>
+
+    <!-- Options Menu Strings -->
+    <string name="new_game">New Game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="quit">Quit</string>
+    <string name="reset_scores">Reset Scores</string>
+
+    <!-- Score Display Strings -->
+    <string name="score_human_label">Human</string>
+    <string name="score_computer_label">Android</string>
+    <string name="score_ties_label">Ties</string>
+    <string name="score_format">Human: %1$d   Android: %2$d   Ties: %3$d</string>
+
+    <!-- Game Status Messages -->
+    <string name="first_human">You go first.</string>
+    <string name="turn_human">It\'s your turn.</string>
+    <string name="turn_computer">Android\'s turn.</string>
+    <string name="result_tie">It\'s a tie!</string>
+    <string name="result_human_wins">You won!</string>
+    <string name="result_computer_wins">Android won!</string>
+
+    <!-- Difficulty Dialog Strings -->
+    <string name="difficulty_choose">Choose a difficulty level:</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Harder</string>
+    <string name="difficulty_expert">Expert</string>
+
+    <!-- Quit Dialog Strings -->
+    <string name="quit_confirm_message">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Online Game Screen Strings -->
+    <string name="online_game_title">Partida en línea</string>
+    <string name="online_status_waiting">Esperando al rival…</string>
+    <string name="online_status_your_turn">Tu turno (%1$s)</string>
+    <string name="online_status_opponent_turn">Turno del rival (%1$s)</string>
+    <string name="online_status_you_won">¡Ganaste!</string>
+    <string name="online_status_you_lost">Perdiste.</string>
+    <string name="online_status_tie">¡Empate!</string>
+    <string name="online_status_opponent_left">El rival abandonó la partida.</string>
+    <string name="online_leave">Salir</string>
+    <string name="online_back_to_lobby">Volver al Lobby</string>
+    <string name="online_move_invalid">Movimiento inválido</string>
+    <string name="online_move_not_your_turn">No es tu turno</string>
+    <string name="online_error_connection">Error de conexión. Inténtalo de nuevo.</string>
+
+    <!-- Online Mode / Lobby Strings -->
+    <string name="lobby_title">Partidas en línea</string>
+    <string name="lobby_create_match">Crear partida</string>
+    <string name="lobby_join">Unirse</string>
+    <string name="lobby_empty">No hay partidas disponibles</string>
+    <string name="lobby_host_label">Anfitrión: %1$s</string>
+    <string name="lobby_match_waiting">Esperando invitado</string>
+    <string name="lobby_match_unavailable">La partida ya no está disponible</string>
+    <string name="online_error_generic">Ocurrió un error. Inténtalo de nuevo.</string>
+    <string name="play_online">Jugar en línea</string>
+</resources>

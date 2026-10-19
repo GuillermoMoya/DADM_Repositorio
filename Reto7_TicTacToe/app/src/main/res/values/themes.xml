@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Reto4_TicTacToe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Calm, professional Slate primary palette -->
+        <item name="colorPrimary">#2C3E50</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#1C1B1F</item>
+    </style>
+
+    <style name="Theme.Reto4_TicTacToe" parent="Base.Theme.Reto4_TicTacToe" />
+
+    <!-- High-contrast Popup Menu Theme Overlay -->
+    <style name="PopupMenuTheme" parent="ThemeOverlay.AppCompat.DayNight">
+        <item name="android:textColor">#1C1B1F</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+</resources>

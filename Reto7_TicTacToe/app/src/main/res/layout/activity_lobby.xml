@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lobby_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LobbyActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/lobby_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar"
+        app:popupTheme="@style/PopupMenuTheme"
+        app:title="@string/lobby_title"
+        app:titleTextColor="?attr/colorOnPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lobby_create_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lobby_create_match"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lobby_toolbar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lobby_matches_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lobby_create_button"
+        tools:listitem="@layout/item_match" />
+
+    <!-- Empty state: shown when there are no available matches -->
+    <TextView
+        android:id="@+id/lobby_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lobby_empty"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/lobby_matches_list"
+        app:layout_constraintEnd_toEndOf="@id/lobby_matches_list"
+        app:layout_constraintStart_toStartOf="@id/lobby_matches_list"
+        app:layout_constraintTop_toTopOf="@id/lobby_matches_list"
+        tools:visibility="visible" />
+
+    <!-- Loading state: shown while the lobby list is being fetched -->
+    <ProgressBar
+        android:id="@+id/lobby_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/lobby_matches_list"
+        app:layout_constraintEnd_toEndOf="@id/lobby_matches_list"
+        app:layout_constraintStart_toStartOf="@id/lobby_matches_list"
+        app:layout_constraintTop_toTopOf="@id/lobby_matches_list"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

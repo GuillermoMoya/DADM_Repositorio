@@ -1,0 +1,27 @@
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Firebase config — se provee fuera de banda (out-of-band), NO se versiona con claves reales (Req 22.7).
+# Descargar desde Firebase Console y colocar manualmente en app/google-services.json.
+google-services.json
+**/google-services.json
+
+# Generated files
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+firebase-rules-tests/node_modules/
+.firebase/

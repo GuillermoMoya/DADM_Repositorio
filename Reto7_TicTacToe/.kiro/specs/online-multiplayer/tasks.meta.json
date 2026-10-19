@@ -1,0 +1,506 @@
+{
+  "pbtResults": {
+    "2.3 Escribir prueba de propiedad del round trip del tablero (jqwik)": {
+      "status": "passed",
+      "lastRunTimestamp": 1791860925026
+    },
+    "6.3 Escribir prueba de propiedad \"X siempre inicia\" (jqwik)": {
+      "status": "passed",
+      "lastRunTimestamp": 1791861851320
+    }
+  },
+  "executionHistory": {
+    "1. Configurar Gradle y dependencias de Firebase (primera tarea real de implementación)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859502598
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859524615
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860136140
+      }
+    ],
+    "2.1 Crear tipos del Estado_Partida": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859505264
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860140093
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860342671
+      }
+    ],
+    "2.2 Implementar helpers de mapeo `board` ↔ `TicTacToeGame char[9]`": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859511703
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860346781
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860492266
+      }
+    ],
+    "3.1 Crear la interfaz `AuthProvider` y `FirebaseAuthProvider`": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859512603
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860141307
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860341866
+      }
+    ],
+    "4.1 Crear la interfaz `MatchRepository` y tipos de apoyo": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859512822
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860348040
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860493392
+      }
+    ],
+    "4.2 Implementar `FakeMatchRepository` en memoria (base de pruebas)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859513271
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860508275
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860945092
+      }
+    ],
+    "5.1 Implementar el guardián de movimiento del Modo_Online": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859513449
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860950430
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861150483
+      }
+    ],
+    "6.1 Implementar `joinMatch` en `FakeMatchRepository`": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859513628
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861159709
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861597321
+      }
+    ],
+    "7. Checkpoint — Asegurar que la lógica pura y las propiedades pasan": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859513821
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791862313770
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791863292129
+      }
+    ],
+    "8.1 Implementar creación, observación de Lobby y de partida": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859514032
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791863296611
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936131251
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936486801
+      }
+    ],
+    "8.2 Implementar `joinMatch` y `submitMove` con transacciones RTDB": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859514216
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936491503
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936623194
+      }
+    ],
+    "8.3 Implementar salida, presencia y limpieza (distinguiendo desconexión transitoria de abandono definitivo)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859514448
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936628527
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936773405
+      }
+    ],
+    "9.1 Crear el layout del Lobby": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859514913
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936780118
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791937194168
+      }
+    ],
+    "9.2 Implementar `LobbyActivity`": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859515202
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791937211967
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939616220
+      }
+    ],
+    "9.3 Añadir el punto de entrada desde `MainActivity`": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859515654
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939622719
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939802297
+      }
+    ],
+    "10.1 Crear el layout de juego en línea": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859516004
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936780568
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791937196300
+      }
+    ],
+    "10.2 Implementar render autoritativo y ciclo de vida de listeners": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859516168
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791937214111
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939615805
+      }
+    ],
+    "10.3 Implementar envío de movimientos y manejo de fin/abandono": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859516322
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939623527
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939800533
+      }
+    ],
+    "11. Crear el archivo de Reglas_Seguridad de producción": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859516491
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860509486
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860946101
+      }
+    ],
+    "13. Checkpoint final — Compilar y verificar sin romper el Modo_Local": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791859516666
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791940074139
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791941197697
+      }
+    ],
+    "3. Definir la identidad del Jugador (`AuthProvider`)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860342116
+      }
+    ],
+    "2. Definir el modelo de datos del Modo_Online y el mapeo de tablero": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860492590
+      }
+    ],
+    "2.3 Escribir prueba de propiedad del round trip del tablero (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860507041
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860943825
+      }
+    ],
+    "4. Definir la abstracción de la nube y su doble en memoria": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791860945772
+      }
+    ],
+    "5. Implementar la validación/orquestación de movimientos en línea (lógica pura reutilizada)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861150947
+      }
+    ],
+    "5.2 Escribir prueba de propiedad del guardián de movimiento (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861161070
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861593325
+      }
+    ],
+    "5.3 Escribir prueba de propiedad del resultado persistido (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861162447
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861594803
+      }
+    ],
+    "5.4 Escribir prueba de propiedad del invariante de conteo de marcas (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861163739
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861596643
+      }
+    ],
+    "6. Implementar la lógica de unión (claim atómico del slot de Invitado)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861597654
+      }
+    ],
+    "6.2 Escribir prueba de propiedad \"exactamente un Invitado\" (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861612122
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791862307846
+      }
+    ],
+    "6.3 Escribir prueba de propiedad \"X siempre inicia\" (jqwik)": [
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791861613411
+      },
+      {
+        "executionId": "a8858b8f-d12f-458b-9e91-b6b04bdfb3c5",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791862308851
+      }
+    ],
+    "8. Implementar `FirebaseMatchRepository` (RTDB real detrás de la abstracción)": [
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791936773899
+      }
+    ],
+    "10. Implementar `OnlineGameActivity`": [
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939801765
+      }
+    ],
+    "9. Implementar `LobbyActivity` y el punto de entrada al Modo_Online": [
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939802798
+      }
+    ],
+    "12.1 Escribir pruebas de ejemplo con `FakeMatchRepository` (1–3 casos)": [
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791939816598
+      },
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791940068349
+      }
+    ],
+    "12. Pruebas de ejemplo/humo de la capa de repositorio (detrás de la abstracción)": [
+      {
+        "executionId": "c0f41027-f4fe-47b6-8e9c-e394ffe87135",
+        "chatSessionId": "sess_9a8bd013-45d8-4ca8-a4fc-e5e03b3eeffe",
+        "timestamp": 1791940068977
+      }
+    ]
+  }
+}

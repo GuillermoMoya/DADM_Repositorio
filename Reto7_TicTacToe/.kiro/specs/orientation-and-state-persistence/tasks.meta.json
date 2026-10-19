@@ -1,0 +1,189 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Write focused JVM unit test for the full-board API": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332248585
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333025914
+      }
+    ],
+    "2.1 Write focused JVM unit tests for the split half-turns (mirror existing `TurnOrchestrator` test style)": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332248972
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333027257
+      }
+    ],
+    "3. Add strings, menu changes, and the portrait scoreboard": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332249135
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332272618
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333019112
+      }
+    ],
+    "4. Add score state and menu wiring in `MainActivity`": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332249329
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333028504
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333109110
+      }
+    ],
+    "5. Persist and restore scores via SharedPreferences": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332249498
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333113441
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333203687
+      }
+    ],
+    "6. Persist and apply difficulty (Extra 1)": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332249805
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333207911
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333288331
+      }
+    ],
+    "7. Create the landscape layout": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332249977
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332273737
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333021011
+      }
+    ],
+    "8. Add save/restore, `mGoFirst`, and status tracking": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332250123
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333292019
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333416402
+      }
+    ],
+    "9. Add the delayed computer move and pending-computer handling (Extra 2)": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332250286
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333420180
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333546070
+      }
+    ],
+    "10. Build and run minimal manual verification": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332250466
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333550570
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333789006
+      }
+    ],
+    "1. Add full-board serialization API to `TicTacToeGame`": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332267461
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333017927
+      }
+    ],
+    "2. Split the turn in `TurnOrchestrator` into two pure half-turns": [
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791332271220
+      },
+      {
+        "executionId": "dd352ed9-2919-42c9-990f-6cd55ea62044",
+        "chatSessionId": "sess_fab589ca-e426-4a83-b483-ccb58cebcc0d",
+        "timestamp": 1791333018465
+      }
+    ]
+  }
+}
