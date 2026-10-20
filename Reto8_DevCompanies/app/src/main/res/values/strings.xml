@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">DevCompanies</string>
+    <string name="subtitle">Directorio de empresas de software</string>
+
+    <!-- Búsqueda y filtros -->
+    <string name="search_hint">Buscar empresa por nombre…</string>
+    <string name="filter_label">Filtrar por clasificación</string>
+    <string name="filter_all">Todas</string>
+
+    <!-- Clasificaciones -->
+    <string name="class_consultoria">Consultoría</string>
+    <string name="class_desarrollo_medida">Desarrollo a la medida</string>
+    <string name="class_fabrica_software">Fábrica de software</string>
+
+    <!-- Acciones -->
+    <string name="add_company">Agregar empresa</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Formulario -->
+    <string name="form_new_title">Nueva empresa</string>
+    <string name="form_edit_title">Editar empresa</string>
+    <string name="field_name">Nombre de la empresa *</string>
+    <string name="field_url">URL de la página web</string>
+    <string name="field_phone">Teléfono de contacto</string>
+    <string name="field_email">Email de contacto</string>
+    <string name="field_products">Productos y servicios</string>
+    <string name="field_classification">Clasificación (una o varias)</string>
+
+    <!-- Mensajes -->
+    <string name="error_name_required">El nombre es obligatorio</string>
+    <string name="empty_title">Sin empresas</string>
+    <string name="empty_message">No hay empresas que coincidan.\nPulsa + para agregar una.</string>
+    <string name="delete_confirm_title">Eliminar empresa</string>
+    <string name="delete_confirm_message">¿Seguro que deseas eliminar \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="created_ok">Empresa agregada</string>
+    <string name="updated_ok">Empresa actualizada</string>
+    <string name="deleted_ok">Empresa eliminada</string>
+    <string name="cd_add">Agregar empresa</string>
+</resources>
