@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/pref_category_search">
+
+        <!--
+          Radio de búsqueda. El SeekBar maneja enteros, así que guardamos el
+          radio en pasos de 0.5 km (valor = km * 2). El rango 1..20 equivale
+          a 0.5 km .. 10 km. La conversión a km real se hace en Prefs.java.
+        -->
+        <SeekBarPreference
+            app:key="pref_radius_steps"
+            app:title="@string/pref_radius_title"
+            app:summary="@string/pref_radius_summary"
+            app:min="1"
+            android:max="20"
+            app:defaultValue="4"
+            app:showSeekBarValue="true"
+            app:updatesContinuously="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/pref_category_types">
+
+        <SwitchPreferenceCompat
+            app:key="pref_show_hospital"
+            app:title="@string/pref_hospital_title"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_show_pharmacy"
+            app:title="@string/pref_pharmacy_title"
+            app:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_show_university"
+            app:title="@string/pref_university_title"
+            app:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

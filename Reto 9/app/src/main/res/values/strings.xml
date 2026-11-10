@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Reto 9 · GPS</string>
+
+    <!-- Acciones / UI principal -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_my_location">Mi ubicación</string>
+    <string name="action_search">Buscar cercanos</string>
+    <string name="searching">Buscando puntos de interés…</string>
+    <string name="results_found">%1$d puntos encontrados en %2$.1f km</string>
+    <string name="no_results">No se encontraron puntos de interés en el radio actual</string>
+    <string name="radius_chip">Radio: %1$.1f km</string>
+
+    <!-- Permisos -->
+    <string name="perm_rationale_title">Permiso de ubicación</string>
+    <string name="perm_rationale_message">Esta app necesita tu ubicación para mostrar los puntos de interés cercanos en el mapa.</string>
+    <string name="perm_denied">Sin permiso de ubicación no se puede centrar el mapa en tu posición.</string>
+    <string name="locating">Obteniendo tu ubicación…</string>
+    <string name="location_error">No se pudo obtener la ubicación. Verifica que el GPS esté activo.</string>
+    <string name="network_error">Error consultando los puntos de interés. Revisa tu conexión.</string>
+
+    <!-- Pantalla de ajustes / preferencias -->
+    <string name="settings_title">Ajustes</string>
+    <string name="pref_category_search">Búsqueda</string>
+    <string name="pref_radius_title">Radio de búsqueda (km)</string>
+    <string name="pref_radius_summary">Distancia máxima para mostrar puntos de interés.</string>
+    <string name="pref_category_types">Categorías a mostrar</string>
+    <string name="pref_hospital_title">Hospitales</string>
+    <string name="pref_pharmacy_title">Farmacias</string>
+    <string name="pref_university_title">Universidades</string>
+
+    <!-- Tipos de POI -->
+    <string name="poi_hospital">Hospital</string>
+    <string name="poi_pharmacy">Farmacia</string>
+    <string name="poi_university">Universidad</string>
+    <string name="poi_unnamed">Sin nombre</string>
+</resources>
